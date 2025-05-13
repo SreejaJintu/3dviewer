@@ -18,7 +18,7 @@ function ModelList() {
   const [models, setModels] = useState([]);
 
   useEffect(() => {
-    axios.get('http://localhost:5000/models').then((res) => setModels(res.data));
+    axios.get('https://github.com/SreejaJintu/3dbackend/models').then((res) => setModels(res.data));
   }, []);
 
   return (

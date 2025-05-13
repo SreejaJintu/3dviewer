@@ -12,7 +12,7 @@ function UploadForm() {
     formData.append('model', file);
 
     try {
-      await axios.post('http://localhost:5000/upload', formData);
+      await axios.post('https://github.com/SreejaJintu/3dbackend/upload', formData);
       alert('Upload successful!');
     } catch (err) {
       console.error(err);
