@@ -18,7 +18,7 @@ function ModelList() {
   const [models, setModels] = useState([]);
 
   useEffect(() => {
-    axios.get('https://github.com/SreejaJintu/3dbackend/models').then((res) => setModels(res.data));
+    axios.get('https://threedbackend-syu8.onrender.com/models').then((res) => setModels(res.data));
   }, []);
 
   return (
